@@ -1,12 +1,11 @@
 package lexicon.model;
 
 import lexicon.data.sequencers.TodoItemTaskIdSequencer;
-import lexicon.utils.ObjectValidator;
 
 public class TodoItemTask {
 
     // Fields
-    private int id;
+    private final int id;
     private boolean assigned;
     private TodoItem todoItem;
     private Person assignee;
@@ -17,6 +16,7 @@ public class TodoItemTask {
     }
 
     public TodoItemTask(boolean assigned, TodoItem todoItem, Person assignee) {
+        this();
         this.assigned = assigned;
         this.todoItem = todoItem;
         this.assignee = assignee;

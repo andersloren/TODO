@@ -13,6 +13,7 @@ public class TodoItemTaskIdSequencer {
     }
 
     public static void setCurrentId(int id) {
+        //todo: use this
         currentId = id;
     }
 }

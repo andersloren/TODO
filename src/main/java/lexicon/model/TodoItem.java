@@ -1,7 +1,6 @@
 package lexicon.model;
 
-import lexicon.data.sequencers.TodoItemTaskIdSequencer;
-import lexicon.utils.ObjectValidator;
+import lexicon.data.sequencers.TodoItemIdSequencer;
 import lexicon.utils.StringValidator;
 
 import java.time.LocalDate;
@@ -10,7 +9,7 @@ import java.util.Objects;
 public class TodoItem {
 
     // Fields
-    private int id;
+    private final int id;
     private String title;
     private String taskDescription;
     private LocalDate deadLine;
@@ -21,7 +20,7 @@ public class TodoItem {
 
 
     public TodoItem() {
-        id = TodoItemTaskIdSequencer.nextId();
+        id = TodoItemIdSequencer.nextId();
     }
 
         public TodoItem(int id, String title, String taskDescription, LocalDate deadLine, boolean done, Person creator) {

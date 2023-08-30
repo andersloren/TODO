@@ -9,7 +9,7 @@ import java.util.Objects;
 public class Person {
 
     // Fields
-    private int id;
+    private final int id;
     private String firstName;
     private String lastName;
     private AppUser credentials;
