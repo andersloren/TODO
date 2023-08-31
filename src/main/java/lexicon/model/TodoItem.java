@@ -20,10 +20,10 @@ public class TodoItem {
 
 
     public TodoItem() {
-        id = TodoItemIdSequencer.nextId();
+        id = TodoItemIdSequencer.getInstance().nextId();
     }
 
-        public TodoItem(int id, String title, String taskDescription, LocalDate deadLine, boolean done, Person creator) {
+        public TodoItem(String title, String taskDescription, LocalDate deadLine, boolean done, Person creator) {
         this();
         this.title = title;
         this.taskDescription = taskDescription;

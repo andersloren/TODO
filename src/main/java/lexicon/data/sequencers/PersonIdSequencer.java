@@ -2,17 +2,28 @@ package lexicon.data.sequencers;
 
 public class PersonIdSequencer {
 
-    private static int currentId = 0;
+    //fields
+    private static PersonIdSequencer instance = new PersonIdSequencer();
+    private int currentId = 0;
 
-    public static int nextId() {
+    //constructor
+    private PersonIdSequencer() {
+    }
+
+    // methods
+    public int nextId() {
         return ++currentId;
     }
 
-    public static int getCurrentId() {
+    public static PersonIdSequencer getInstance() {
+        return instance;
+    }
+
+    public int getCurrentId() {
         return currentId;
     }
 
-    public static void setCurrentId(int id) {
+    public void setCurrentId(int id) {
         currentId = id;
     }
 }

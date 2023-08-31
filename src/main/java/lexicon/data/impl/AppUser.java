@@ -14,6 +14,13 @@ public class AppUser {
 
     // Constructor(s)
 
+    public AppUser(String username, String password, AppRole role) {
+        this.username = username;
+        this.password = password;
+        this.role = role;
+    }
+
+
     // Methods
 
     // Overridden methods from Object

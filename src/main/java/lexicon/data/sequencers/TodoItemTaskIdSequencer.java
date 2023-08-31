@@ -2,18 +2,27 @@ package lexicon.data.sequencers;
 
 public class TodoItemTaskIdSequencer {
 
+    //fields
+    private static TodoItemTaskIdSequencer instance = new TodoItemTaskIdSequencer();
     private static int currentId = 0;
 
-    public static int nextId() {
+    //constructor
+    private TodoItemTaskIdSequencer() {
+    }
+
+    //methods
+    public  int nextId() {
         return ++currentId;
     }
 
-    public static int getCurrentId() {
+    public static TodoItemTaskIdSequencer getInstance() {
+        return instance;
+    }
+    public  int getCurrentId() {
         return currentId;
     }
 
-    public static void setCurrentId(int id) {
-        //todo: use this
+    public void setCurrentId(int id) {
         currentId = id;
     }
 }

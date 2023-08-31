@@ -18,7 +18,7 @@ public class Person {
 
 
     public Person() {
-        id = PersonIdSequencer.nextId();
+        id = PersonIdSequencer.getInstance().nextId();
     }
 
     public Person(String firstName, String lastName, String email) {
