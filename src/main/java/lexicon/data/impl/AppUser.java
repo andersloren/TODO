@@ -2,6 +2,7 @@ package lexicon.data.impl;
 
 import lexicon.utils.StringValidator;
 
+import java.util.Collection;
 import java.util.Objects;
 
 public class AppUser {
