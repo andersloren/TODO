@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a425a43-9112-426f-a464-b92bcc235e30" name="Changes" comment="All implementations and testing are done. We tried to write to the JSON file, but didn't succeed in doing so.">
-      <change afterPath="$PROJECT_DIR$/JSON/AppUsers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/maintenance/ApplicationTerminator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/maintenance/StaticResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/ToDoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/ToDoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/data/dao/TodoItemTaskDaoCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/data/dao/TodoItemTaskDaoCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/data/impl/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/data/impl/AppUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lexicon/data/dao/TodoItemTaskDaoCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lexicon/data/dao/TodoItemTaskDaoCollectionTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a425a43-9112-426f-a464-b92bcc235e30" name="Changes" comment="All implementations and testing are done. We tried to write to the JSON file, but didn't succeed in doing so." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693496727675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="All implementations and testing are done. We tried to write to the JSON file, but didn't succeed in doing so.">
+      <option name="closed" value="true" />
+      <created>1693510847501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693510847501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
